@@ -1,0 +1,6 @@
+<ul class="list-group list-group-flush" *ngFor = "let meta of metauser" >
+    <li class="list-group-item" *ngIf="(meta.like == 1)">
+      <a href="#"><strong class="text-muted d-block mb-2">lien</strong></a>
+      <span >{{meta.username}} Like {{meta.Product_name}} </span>
+    </li>
+</ul>

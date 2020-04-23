@@ -1,0 +1,11 @@
+::ng-deep
+.ngxImageZoomContainer > img{
+max-height: 450px;
+max-width: 300px;
+}
+  
+ .backGroundSite{
+    background-color: rgb(65, 67, 68);
+
+  }
+  .button {background-color: #555555;}

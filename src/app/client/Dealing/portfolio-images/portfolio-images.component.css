@@ -1,0 +1,56 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    width: 250px;
+    padding: 3px;
+
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+
+  img{
+      height: 250px;
+      width:100% ;
+  }
+
+  h1{
+      color: black;
+      text-align:left;
+      font-size:  18px;
+      text-align: center;
+
+     
+  }
+
+
+a:link { color: blue; }          /* Liens non visités */
+a:visited { color: purple; }     /* Liens visités */
+a:hover { background: yellow; }  /* Liens survolés */
+
+
+.active {
+  background-color: #666;
+}
+
+
+:host {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list {
+  max-width: 550px;
+  margin: auto;
+}
+
+li {
+  margin-bottom: 5px;
+}
